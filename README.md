@@ -5,7 +5,7 @@ Source data, analysis scripts and figures for *Prdx4t*, canonical *Prdx4*, *Pcmt
 ## Contents
 
 - `Source_Data_Supplementary_Figure_4.xlsx`: counts, expression estimates, stage means and SEMs, study selection, strandedness results and column definitions.
-- `figures/RNAseq_stacked_relative.pdf`: Supplementary Figure 4, showing relative expression with the five studies stacked on a common stage axis.
+- `figures/RNAseq_stacked_relative.pdf`: the manuscript figure, showing relative expression with the five studies stacked on a common stage axis.
 - `analysis_code/`: plotting scripts, the raw-read processing workflow and the RSeQC strandedness assessment.
 - `tables/`: stage mappings, abundance means and SEMs, and figure checks.
 - `reference/`: Ensembl-derived first-exon and retained exon-union coordinates used for counting.
@@ -20,7 +20,7 @@ python analysis_code/reproduce_figure.py
 python analysis_code/reproduce_stacked_figures.py
 ```
 
-The second script creates Supplementary Figure 4 (`RNAseq_stacked_relative`). Both scripts also write supplementary views that are not part of the manuscript and are not tracked here: a non-stacked multi-panel layout (first script) and abundance before peak scaling on shared linear and inverse-hyperbolic-sine axes (second script). Both recalculate expression from the workbook and check the results against its sample and stage summaries. Outputs are saved in `figures/` as PDF and Illustrator-compatible EPS files with an `.ai` extension. Use Arial to match the supplied figures.
+The second script creates the manuscript figure (`RNAseq_stacked_relative`). Both scripts also write supplementary views that are not part of the manuscript and are not tracked here: a non-stacked multi-panel layout (first script) and abundance before peak scaling on shared linear and inverse-hyperbolic-sine axes (second script). Both recalculate expression from the workbook and check the results against its sample and stage summaries. Outputs are saved in `figures/` as PDF and Illustrator-compatible EPS files with an `.ai` extension. Use Arial to match the supplied figures.
 
 To check the calculations without writing files:
 
@@ -37,7 +37,7 @@ The stacked script also writes:
 - `tables/stacked_abundance_stage_summary.tsv`: abundance means, SEMs, sample sizes and units.
 - `tables/stacked_figure_checks.json`: validation results, source-file hashes and plotting settings.
 
-## Reading Supplementary Figure 4
+## Reading the figure
 
 The studies run from top to bottom in the order Soumillon, He, Trovero, Holmlund and Gill. Each heading gives the number of biological samples or cell pools per annotated stage. Technical sequencing runs from the same sample are combined before analysis.
 
