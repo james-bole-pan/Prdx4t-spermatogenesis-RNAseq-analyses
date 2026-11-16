@@ -17,3 +17,8 @@ data/
 *.fastq.gz
 *.bam
 *.bai
+
+# Supplementary views written by the plotting scripts (not part of the manuscript)
+figures/RNAseq_nonstacked_relative.pdf
+figures/RNAseq_stacked_abundance_linear.pdf
+figures/RNAseq_stacked_abundance_asinh.pdf

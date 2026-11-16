@@ -6,12 +6,9 @@ Source data, analysis scripts and figures for *Prdx4t*, canonical *Prdx4*, *Pcmt
 
 
 - `Source_Data_Supplementary_Figure_4.xlsx`: counts, expression estimates, stage means and SEMs, study selection, strandedness results and column definitions.
-- `figures/RNAseq_nonstacked_relative.pdf`: multi-panel figure with relative expression values.
-- `figures/RNAseq_stacked_relative.pdf`: relative expression, with the five studies stacked on a common stage axis.
-- `figures/RNAseq_stacked_abundance_linear.pdf`: abundance before peak scaling, on a shared linear axis.
-- `figures/RNAseq_stacked_abundance_asinh.pdf`: the same abundance estimates on a shared inverse-hyperbolic-sine axis.
+- `figures/RNAseq_stacked_relative.pdf`: Supplementary Figure 4, showing relative expression with the five studies stacked on a common stage axis.
 - `analysis_code/`: plotting scripts, the raw-read processing workflow and the RSeQC strandedness assessment.
-- `tables/`: stage mappings, abundance means and SEMs, and checks for the stacked figures.
+- `tables/`: stage mappings, abundance means and SEMs, and figure checks.
 - `reference/`: Ensembl-derived first-exon and retained exon-union coordinates used for counting.
 
 ## Reproduce the figures
@@ -24,7 +21,7 @@ python analysis_code/reproduce_figure.py
 python analysis_code/reproduce_stacked_figures.py
 ```
 
-The first script creates the non-stacked figure; the second creates all three stacked figures. Both recalculate expression from the workbook and check the results against its sample and stage summaries. Outputs are saved in `figures/` as PDF and Illustrator-compatible EPS files with an `.ai` extension. Use Arial to match the supplied figures.
+The second script creates Supplementary Figure 4 (`RNAseq_stacked_relative`). Both scripts also write supplementary views that are not part of the manuscript and are not tracked here: a non-stacked multi-panel layout (first script) and abundance before peak scaling on shared linear and inverse-hyperbolic-sine axes (second script). Both recalculate expression from the workbook and check the results against its sample and stage summaries. Outputs are saved in `figures/` as PDF and Illustrator-compatible EPS files with an `.ai` extension. Use Arial to match the supplied figures.
 
 To check the calculations without writing files:
 
@@ -41,7 +38,7 @@ The stacked script also writes:
 - `tables/stacked_abundance_stage_summary.tsv`: abundance means, SEMs, sample sizes and units.
 - `tables/stacked_figure_checks.json`: validation results, source-file hashes and plotting settings.
 
-## Reading the stacked figures
+## Reading Supplementary Figure 4
 
 The studies run from top to bottom in the order Soumillon, He, Trovero, Holmlund and Gill. Each heading gives the number of biological samples or cell pools per annotated stage. Technical sequencing runs from the same sample are combined before analysis.
 
@@ -49,15 +46,13 @@ The horizontal axis shows ordered stage categories. Its spacing does not represe
 
 Grey shading marks Sertoli cells and the mixed 2C fraction. Red shading marks diplotene spermatocytes, secondary spermatocytes and spermatids. This interval was selected from the stage annotations and the observed expression patterns, without an automated cutoff. The shading describes the proposed expression window; a highlighted stage need not have a measurement in every study.
 
-The linear and asinh figures show abundance before peak scaling. The asinh axis uses `linear_width=0.1`, includes zero and adds no pseudocount. Its tick labels give abundance values on the original scale.
-
 ## Analysis definitions
 
 Abundance is measured in fragments per kilobase of retained exonic sequence per million sequenced SRA spots. One spot is one read pair for paired-end data or one read for single-end data. These are length- and depth-normalized estimates, not raw counts, TPM, conventional mapped-read FPKM or molecules per cell. Comparisons are strongest within studies.
 
 For each biological sample, the *Prdx4t* fraction is the exon 1t-exon 2 junction count divided by the sum of alternative and canonical first-exon junction counts. All included samples meet the minimum of five total junction fragments. This fraction and its complement split total *Prdx4* abundance into estimated *Prdx4t* and canonical *Prdx4* components.
 
-In the relative-expression figures, both isoforms are divided by the highest stage-mean total *Prdx4* abundance in their dataset. *Pcmt1* and *Crbn* each use their own highest stage mean. Error bars show SEM across biological samples. Soumillon has one pool per stage, so no SEM is shown.
+In the relative-expression figure, both isoforms are divided by the highest stage-mean total *Prdx4* abundance in their dataset. *Pcmt1* and *Crbn* each use their own highest stage mean. Error bars show SEM across biological samples. Soumillon has one pool per stage, so no SEM is shown.
 
 The Trovero 2C fraction contains spermatogonia and testicular somatic cells. Holmlund is restricted to wild-type batch B. Study selection and limitations are recorded in the workbook.
 
