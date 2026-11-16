@@ -1,0 +1,95 @@
+{
+  "biological_samples_or_pools_validated": 51,
+  "relative_means_and_sems_validated": 88,
+  "abundance_means_and_sems_validated": 88,
+  "original_populations": 22,
+  "panel_order": [
+    "Soumillon",
+    "He",
+    "Trovero",
+    "Holmlund",
+    "Gill"
+  ],
+  "abundance_units": "fragments per kilobase of retained exonic sequence per million sequenced SRA spots",
+  "abundance_interpretation": "Length/depth-normalized abundance before peak scaling; not raw counts or molecule counts. Comparisons are strongest within studies.",
+  "broad_stage_display": "One diamond plus SEM at a schematic midpoint; grey brackets indicate original annotation breadth. Single-stage/control points use circles. Prdx4t is open; canonical Prdx4 is filled.",
+  "grey_region": "Somatic/mixed populations: Sertoli cells and mixed 2C fraction.",
+  "red_region": "Stage-based highlight: diplotene and secondary spermatocytes and spermatids; not a cutoff-based expression call.",
+  "connecting_lines": "Connect observed populations; missing stages have no measurements or imputed markers.",
+  "asinh_interpretation": "Zero-preserving inverse hyperbolic sine scale; linear_width=0.1; no pseudocount.",
+  "ai_format": "Illustrator-compatible EPS, matching the existing package convention; not a native Illustrator document.",
+  "source_hashes": {
+    "Source_Data_Supplementary_Figure_4.xlsx": "90f28b440e70e3799d4c3858ecbd92d50cb80c16d17efa199de20edffadb9dfd",
+    "source_data.py": "a9364593368028f70d5dc492e66a670f9745cf32443172acbeafd498c9b2d7d4",
+    "reproduce_figure.py": "226f99d16048764df14a9dce3f1f5fb4c596428db63fb9c3d8d6db951589abad",
+    "reproduce_stacked_figures.py": "2dd7954c548c3288c4f389b65973895ea0247468182c490e696b29332bbe6b35"
+  },
+  "figures": [
+    {
+      "mode": "relative",
+      "files": [
+        "RNAseq_stacked_relative.pdf",
+        "RNAseq_stacked_relative.ai"
+      ],
+      "markers_verified": 88,
+      "overall_title_centered": true,
+      "panel_headings_centered": true,
+      "legends_at_bottom": true,
+      "heading_sample_size_label": "n = x per stage",
+      "figure_size_inches": [
+        10.8,
+        17.4
+      ],
+      "panel_hspace": 0.75,
+      "title_padding_points": 24,
+      "minimum_checked_label_gap_points": 6,
+      "minimum_checked_gap_above_title_points": 18,
+      "shared_y_axis": true,
+      "asinh_linear_width": null
+    },
+    {
+      "mode": "linear",
+      "files": [
+        "RNAseq_stacked_abundance_linear.pdf",
+        "RNAseq_stacked_abundance_linear.ai"
+      ],
+      "markers_verified": 88,
+      "overall_title_centered": true,
+      "panel_headings_centered": true,
+      "legends_at_bottom": true,
+      "heading_sample_size_label": "n = x per stage",
+      "figure_size_inches": [
+        10.8,
+        17.4
+      ],
+      "panel_hspace": 0.75,
+      "title_padding_points": 24,
+      "minimum_checked_label_gap_points": 6,
+      "minimum_checked_gap_above_title_points": 18,
+      "shared_y_axis": true,
+      "asinh_linear_width": null
+    },
+    {
+      "mode": "asinh",
+      "files": [
+        "RNAseq_stacked_abundance_asinh.pdf",
+        "RNAseq_stacked_abundance_asinh.ai"
+      ],
+      "markers_verified": 88,
+      "overall_title_centered": true,
+      "panel_headings_centered": true,
+      "legends_at_bottom": true,
+      "heading_sample_size_label": "n = x per stage",
+      "figure_size_inches": [
+        10.8,
+        17.4
+      ],
+      "panel_hspace": 0.75,
+      "title_padding_points": 24,
+      "minimum_checked_label_gap_points": 6,
+      "minimum_checked_gap_above_title_points": 18,
+      "shared_y_axis": true,
+      "asinh_linear_width": 0.1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+feature_id	gene_name	role	quantification	chrom	start	end	strand	gene_id	transcript_id	exon_number	gene_exonic_length_bp	exonic_bp_masked_by	derivation
+gene	Prdx4	primary	prdx4_isoform	X	154106914	154123750	-	ENSMUSG00000025289	.	.	2106		GTF gene feature
+prdx4t_exon1	Prdx4	primary	prdx4_isoform	X	154123305	154123750	-	ENSMUSG00000025289	ENSMUST00000130349	1	2106		GTF exon feature
+prdx4_exon1	Prdx4	primary	prdx4_isoform	X	154121109	154121463	-	ENSMUSG00000025289	ENSMUST00000026328	1	2106		GTF exon feature
+gap_between_tss	Prdx4	primary	prdx4_isoform	X	154121464	154123304	-	ENSMUSG00000025289	.	.	2106		derived gap between exon 1 intervals
+shared_exon2	Prdx4	primary	prdx4_isoform	X	154117834	154117951	-	ENSMUSG00000025289	ENSMUST00000026328,ENSMUST00000130349	2	2106		matching GTF exon features
+shared_exon3	Prdx4	primary	prdx4_isoform	X	154115352	154115468	-	ENSMUSG00000025289	ENSMUST00000026328,ENSMUST00000130349	3	2106		matching GTF exon features
+shared_exon4	Prdx4	primary	prdx4_isoform	X	154113299	154113421	-	ENSMUSG00000025289	ENSMUST00000026328,ENSMUST00000130349	4	2106		matching GTF exon features
+shared_exon5	Prdx4	primary	prdx4_isoform	X	154111442	154111572	-	ENSMUSG00000025289	ENSMUST00000026328,ENSMUST00000130349	5	2106		matching GTF exon features
+shared_exon6	Prdx4	primary	prdx4_isoform	X	154109591	154109625	-	ENSMUSG00000025289	ENSMUST00000026328	6	2106		canonical GTF exon; shared with Prdx4t per Yim et al. 2011 (doi:10.1074/jbc.M111.257220; Prdx4-203 is mRNA_end_NF)
+shared_exon7	Prdx4	primary	prdx4_isoform	X	154106914	154107024	-	ENSMUSG00000025289	ENSMUST00000026328	7	2106		canonical GTF exon; shared with Prdx4t per Yim et al. 2011 (doi:10.1074/jbc.M111.257220; Prdx4-203 is mRNA_end_NF)
+prdx4_exonunion1	Prdx4	primary	prdx4_isoform	X	154106914	154107024	-	ENSMUSG00000025289	.	.	2106		union of all annotated exons of every transcript
+prdx4_exonunion2	Prdx4	primary	prdx4_isoform	X	154109591	154109625	-	ENSMUSG00000025289	.	.	2106		union of all annotated exons of every transcript
+prdx4_exonunion3	Prdx4	primary	prdx4_isoform	X	154111442	154111572	-	ENSMUSG00000025289	.	.	2106		union of all annotated exons of every transcript
+prdx4_exonunion4	Prdx4	primary	prdx4_isoform	X	154113299	154113421	-	ENSMUSG00000025289	.	.	2106		union of all annotated exons of every transcript
+prdx4_exonunion5	Prdx4	primary	prdx4_isoform	X	154115352	154115468	-	ENSMUSG00000025289	.	.	2106		union of all annotated exons of every transcript
+prdx4_exonunion6	Prdx4	primary	prdx4_isoform	X	154117834	154117951	-	ENSMUSG00000025289	.	.	2106		union of all annotated exons of every transcript
+prdx4_exonunion7	Prdx4	primary	prdx4_isoform	X	154119788	154120450	-	ENSMUSG00000025289	.	.	2106		union of all annotated exons of every transcript
+prdx4_exonunion8	Prdx4	primary	prdx4_isoform	X	154121109	154121470	-	ENSMUSG00000025289	.	.	2106		union of all annotated exons of every transcript
+prdx4_exonunion9	Prdx4	primary	prdx4_isoform	X	154123305	154123750	-	ENSMUSG00000025289	.	.	2106		union of all annotated exons of every transcript
+crbn_gene	Crbn	primary	gene_exonunion	6	106757162	106777038	-	ENSMUSG00000005362	.	.	5928	Trnt1	GTF gene feature
+crbn_exonunion1	Crbn	primary	gene_exonunion	6	106759436	106759488	-	ENSMUSG00000005362	.	.	5928	Trnt1	union of all annotated exons, minus opposite-strand overlap
+crbn_exonunion2	Crbn	primary	gene_exonunion	6	106759872	106759987	-	ENSMUSG00000005362	.	.	5928	Trnt1	union of all annotated exons, minus opposite-strand overlap
+crbn_exonunion3	Crbn	primary	gene_exonunion	6	106760386	106760470	-	ENSMUSG00000005362	.	.	5928	Trnt1	union of all annotated exons, minus opposite-strand overlap
+crbn_exonunion4	Crbn	primary	gene_exonunion	6	106761378	106761440	-	ENSMUSG00000005362	.	.	5928	Trnt1	union of all annotated exons, minus opposite-strand overlap
+crbn_exonunion5	Crbn	primary	gene_exonunion	6	106765709	106767952	-	ENSMUSG00000005362	.	.	5928	Trnt1	union of all annotated exons, minus opposite-strand overlap
+crbn_exonunion6	Crbn	primary	gene_exonunion	6	106771149	106771298	-	ENSMUSG00000005362	.	.	5928	Trnt1	union of all annotated exons, minus opposite-strand overlap
+crbn_exonunion7	Crbn	primary	gene_exonunion	6	106771956	106772158	-	ENSMUSG00000005362	.	.	5928	Trnt1	union of all annotated exons, minus opposite-strand overlap
+crbn_exonunion8	Crbn	primary	gene_exonunion	6	106772843	106772958	-	ENSMUSG00000005362	.	.	5928	Trnt1	union of all annotated exons, minus opposite-strand overlap
+crbn_exonunion9	Crbn	primary	gene_exonunion	6	106774141	106777038	-	ENSMUSG00000005362	.	.	5928	Trnt1	union of all annotated exons, minus opposite-strand overlap
+pcmt1_gene	Pcmt1	primary	gene_exonunion	10	7505137	7556900	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	GTF gene feature
+pcmt1_exonunion1	Pcmt1	primary	gene_exonunion	10	7505137	7506740	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	union of all annotated exons, minus opposite-strand overlap
+pcmt1_exonunion2	Pcmt1	primary	gene_exonunion	10	7513494	7513989	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	union of all annotated exons, minus opposite-strand overlap
+pcmt1_exonunion3	Pcmt1	primary	gene_exonunion	10	7514632	7514759	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	union of all annotated exons, minus opposite-strand overlap
+pcmt1_exonunion4	Pcmt1	primary	gene_exonunion	10	7515423	7515894	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	union of all annotated exons, minus opposite-strand overlap
+pcmt1_exonunion5	Pcmt1	primary	gene_exonunion	10	7516459	7516579	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	union of all annotated exons, minus opposite-strand overlap
+pcmt1_exonunion6	Pcmt1	primary	gene_exonunion	10	7520089	7520193	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	union of all annotated exons, minus opposite-strand overlap
+pcmt1_exonunion7	Pcmt1	primary	gene_exonunion	10	7523354	7523385	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	union of all annotated exons, minus opposite-strand overlap
+pcmt1_exonunion8	Pcmt1	primary	gene_exonunion	10	7524231	7524424	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	union of all annotated exons, minus opposite-strand overlap
+pcmt1_exonunion9	Pcmt1	primary	gene_exonunion	10	7524729	7524919	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	union of all annotated exons, minus opposite-strand overlap
+pcmt1_exonunion10	Pcmt1	primary	gene_exonunion	10	7527114	7527300	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	union of all annotated exons, minus opposite-strand overlap
+pcmt1_exonunion11	Pcmt1	primary	gene_exonunion	10	7538839	7539085	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	union of all annotated exons, minus opposite-strand overlap
+pcmt1_exonunion12	Pcmt1	primary	gene_exonunion	10	7556247	7556900	-	ENSMUSG00000019795	.	.	4431	A630066F11Rik,Nup43	union of all annotated exons, minus opposite-strand overlap
+pgk1_gene	Pgk1	control_x_msci	gene_exonunion	X	105230706	105247305	+	ENSMUSG00000062070	.	.	2244		GTF gene feature
+pgk1_exonunion1	Pgk1	control_x_msci	gene_exonunion	X	105230706	105230921	+	ENSMUSG00000062070	.	.	2244		union of all annotated exons of every transcript
+pgk1_exonunion2	Pgk1	control_x_msci	gene_exonunion	X	105235234	105235663	+	ENSMUSG00000062070	.	.	2244		union of all annotated exons of every transcript
+pgk1_exonunion3	Pgk1	control_x_msci	gene_exonunion	X	105237962	105238117	+	ENSMUSG00000062070	.	.	2244		union of all annotated exons of every transcript
+pgk1_exonunion4	Pgk1	control_x_msci	gene_exonunion	X	105238238	105238382	+	ENSMUSG00000062070	.	.	2244		union of all annotated exons of every transcript
+pgk1_exonunion5	Pgk1	control_x_msci	gene_exonunion	X	105240449	105240552	+	ENSMUSG00000062070	.	.	2244		union of all annotated exons of every transcript
+pgk1_exonunion6	Pgk1	control_x_msci	gene_exonunion	X	105241448	105241567	+	ENSMUSG00000062070	.	.	2244		union of all annotated exons of every transcript
+pgk1_exonunion7	Pgk1	control_x_msci	gene_exonunion	X	105243253	105243367	+	ENSMUSG00000062070	.	.	2244		union of all annotated exons of every transcript
+pgk1_exonunion8	Pgk1	control_x_msci	gene_exonunion	X	105243723	105243942	+	ENSMUSG00000062070	.	.	2244		union of all annotated exons of every transcript
+pgk1_exonunion9	Pgk1	control_x_msci	gene_exonunion	X	105246045	105246222	+	ENSMUSG00000062070	.	.	2244		union of all annotated exons of every transcript
+pgk1_exonunion10	Pgk1	control_x_msci	gene_exonunion	X	105246443	105246541	+	ENSMUSG00000062070	.	.	2244		union of all annotated exons of every transcript
+pgk1_exonunion11	Pgk1	control_x_msci	gene_exonunion	X	105246845	105247305	+	ENSMUSG00000062070	.	.	2244		union of all annotated exons of every transcript
+pgk2_gene	Pgk2	control_autosome_meiotic	gene_exonunion	17	40517906	40519531	-	ENSMUSG00000031233	.	.	1626		GTF gene feature
+pgk2_exonunion1	Pgk2	control_autosome_meiotic	gene_exonunion	17	40517906	40519531	-	ENSMUSG00000031233	.	.	1626		union of all annotated exons of every transcript
+actb_gene	Actb	control_autosome_reference	gene_exonunion	5	142888870	142892509	-	ENSMUSG00000029580	.	.	2679		GTF gene feature
+actb_exonunion1	Actb	control_autosome_reference	gene_exonunion	5	142888870	142889696	-	ENSMUSG00000029580	.	.	2679		union of all annotated exons of every transcript
+actb_exonunion2	Actb	control_autosome_reference	gene_exonunion	5	142889822	142890003	-	ENSMUSG00000029580	.	.	2679		union of all annotated exons of every transcript
+actb_exonunion3	Actb	control_autosome_reference	gene_exonunion	5	142890099	142891576	-	ENSMUSG00000029580	.	.	2679		union of all annotated exons of every transcript
+actb_exonunion4	Actb	control_autosome_reference	gene_exonunion	5	142891604	142891692	-	ENSMUSG00000029580	.	.	2679		union of all annotated exons of every transcript
+actb_exonunion5	Actb	control_autosome_reference	gene_exonunion	5	142892407	142892509	-	ENSMUSG00000029580	.	.	2679		union of all annotated exons of every transcript

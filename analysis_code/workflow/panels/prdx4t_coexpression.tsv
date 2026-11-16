@@ -1,0 +1,10 @@
+# Gene panel for the Prdx4t / Pcmt1 / Crbn co-expression analysis.
+# quantification: prdx4_isoform = full alternative-first-exon feature set
+#                 gene_exonunion = union of all annotated exons, gene-level counts
+gene_name	gene_id	role	quantification	rationale
+Prdx4	ENSMUSG00000025289	primary	prdx4_isoform	Prdx4t and canonical Prdx4 first-exon usage
+Crbn	ENSMUSG00000005362	primary	gene_exonunion	proposed PRDX4t E3 ligase substrate receptor
+Pcmt1	ENSMUSG00000019795	primary	gene_exonunion	proposed PRDX4t processing enzyme
+Pgk1	ENSMUSG00000062070	control_x_msci	gene_exonunion	X-linked; silenced by MSCI, the confound for X-linked Prdx4
+Pgk2	ENSMUSG00000031233	control_autosome_meiotic	gene_exonunion	autosomal retrogene expressed from meiosis because Pgk1 is silenced
+Actb	ENSMUSG00000029580	control_autosome_reference	gene_exonunion	broadly expressed autosomal reference

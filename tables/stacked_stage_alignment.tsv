@@ -1,0 +1,23 @@
+dataset_id	original_stage	original_label	n	axis_start	axis_end	marker_x	display
+GSE43717	SL	Sertoli cells	1	0	0	0.0	single stage/control
+GSE43717	SG	Spermatogonia	1	2	2	2.0	single stage/control
+GSE43717	SC	Spermatocytes	1	3	7	5.0	one diamond at a schematic midpoint
+GSE43717	SD	Spermatids	1	8	10	9.0	one diamond at a schematic midpoint
+GSE43717	SZ	Spermatozoa	1	11	11	11.0	single stage/control
+GSE220303	SGA	Spermatogonia A	2	2	2	2.0	single stage/control
+GSE220303	MLEP	Leptotene spermatocytes	2	3	3	3.0	single stage/control
+GSE220303	MZYG	Zygotene spermatocytes	2	4	4	4.0	single stage/control
+GSE220303	MPAC	Pachytene spermatocytes	2	5	5	5.0	single stage/control
+GSE220303	MDIP	Diplotene spermatocytes	2	6	6	6.0	single stage/control
+PRJNA548952	2C	2C cell fraction	3	1	1	1.0	single stage/control
+PRJNA548952	LZ	Leptotene/zygotene spermatocytes	3	3	4	3.5	one diamond at a schematic midpoint
+PRJNA548952	PS	Pachytene spermatocytes	3	5	5	5.0	single stage/control
+PRJNA548952	RS	Round spermatids	3	8	8	8.0	single stage/control
+GSE281037	SC1	Primary spermatocytes	3	3	6	4.5	one diamond at a schematic midpoint
+GSE281037	SC2	Secondary spermatocytes	3	7	7	7.0	single stage/control
+GSE281037	RS	Round spermatids	3	8	8	8.0	single stage/control
+GSE214315	LZ	Leptotene/zygotene spermatocytes	3	3	4	3.5	one diamond at a schematic midpoint
+GSE214315	PD	Pachytene/diplotene spermatocytes	3	5	6	5.5	one diamond at a schematic midpoint
+GSE214315	RS	Round spermatids	3	8	8	8.0	single stage/control
+GSE214315	EES	Early elongating spermatids	3	9	9	9.0	single stage/control
+GSE214315	LES	Late elongating spermatids	3	10	10	10.0	single stage/control

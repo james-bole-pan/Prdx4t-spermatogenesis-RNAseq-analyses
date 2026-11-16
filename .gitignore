@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Regenerated Illustrator-compatible figure outputs
+figures/*.ai
+
+# Raw/processed sequencing data and references created by the workflow
+data/
+*.fastq
+*.fastq.gz
+*.bam
+*.bai

@@ -1,0 +1,89 @@
+dataset_id	stage	stage_label	stage_order	gene_or_isoform	n	mean_abundance	SEM_abundance	units
+PRJNA548952	2C	2C cell fraction	0	Prdx4t	3	0.005226031102096011	0.005226031102096011	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	2C	2C cell fraction	0	Prdx4 canonical	3	9.628673968897903	1.6340391530105591	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	2C	2C cell fraction	0	Pcmt1	3	3.5081666666666664	0.2566447241702904	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	2C	2C cell fraction	0	Crbn	3	3.7376333333333336	0.510377332089809	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	LZ	Leptotene/zygotene spermatocytes	1	Prdx4t	3	0.10779104790798287	0.09712385690043457	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	LZ	Leptotene/zygotene spermatocytes	1	Prdx4 canonical	3	18.451708952092016	2.240327089731015	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	LZ	Leptotene/zygotene spermatocytes	1	Pcmt1	3	8.2312	1.1056482125884346	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	LZ	Leptotene/zygotene spermatocytes	1	Crbn	3	5.6036	0.7582021520236759	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	PS	Pachytene spermatocytes	2	Prdx4t	3	0.015316666666666668	0.01531666666666667	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	PS	Pachytene spermatocytes	2	Prdx4 canonical	3	0.8144166666666667	0.11148406587689762	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	PS	Pachytene spermatocytes	2	Pcmt1	3	12.355466666666667	0.6008819083462055	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	PS	Pachytene spermatocytes	2	Crbn	3	7.942866666666667	0.5784347048524822	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	RS	Round spermatids	3	Prdx4t	3	4.919013643412041	0.32308133490742597	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	RS	Round spermatids	3	Prdx4 canonical	3	0.9719196899212929	0.41973214076389664	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	RS	Round spermatids	3	Pcmt1	3	7.777033333333334	0.6792896592110846	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+PRJNA548952	RS	Round spermatids	3	Crbn	3	4.459366666666667	0.27544679058657484	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	SGA	Spermatogonia A	0	Prdx4t	2	0.037632685269899366	0.037632685269899366	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	SGA	Spermatogonia A	0	Prdx4 canonical	2	163.38256731473012	1.072267314730098	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	SGA	Spermatogonia A	0	Pcmt1	2	17.2402	0.5204000000000003	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	SGA	Spermatogonia A	0	Crbn	2	2.4345499999999998	0.15555000000000005	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MLEP	Leptotene spermatocytes	1	Prdx4t	2	0.22273514718974602	0.12131246090593015	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MLEP	Leptotene spermatocytes	1	Prdx4 canonical	2	127.99761485281026	21.25023753909407	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MLEP	Leptotene spermatocytes	1	Pcmt1	2	13.118599999999999	6.028499999999999	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MLEP	Leptotene spermatocytes	1	Crbn	2	6.731	0.7417999999999999	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MZYG	Zygotene spermatocytes	2	Prdx4t	2	0.3428170967320989	0.0009308696544556293	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MZYG	Zygotene spermatocytes	2	Prdx4 canonical	2	157.8992329032679	12.198719130345536	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MZYG	Zygotene spermatocytes	2	Pcmt1	2	29.0946	8.763499999999999	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MZYG	Zygotene spermatocytes	2	Crbn	2	9.47255	0.5609500000000001	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MPAC	Pachytene spermatocytes	3	Prdx4t	2	0.5816623128723128	0.15145923594923594	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MPAC	Pachytene spermatocytes	3	Prdx4 canonical	2	25.457187687127686	4.9149907640507635	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MPAC	Pachytene spermatocytes	3	Pcmt1	2	45.331450000000004	7.694649999999998	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MPAC	Pachytene spermatocytes	3	Crbn	2	2.83685	0.60805	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MDIP	Diplotene spermatocytes	4	Prdx4t	2	2.8191047698938414	0.6451025599490905	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MDIP	Diplotene spermatocytes	4	Prdx4 canonical	2	9.691395230106156	0.43130255994909117	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MDIP	Diplotene spermatocytes	4	Pcmt1	2	48.698499999999996	0.8501000000000012	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE220303	MDIP	Diplotene spermatocytes	4	Crbn	2	3.7558	0.018299999999999983	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE281037	SC1	Primary spermatocytes	0	Prdx4t	3	1.5285280000902028	0.16755456147902587	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE281037	SC1	Primary spermatocytes	0	Prdx4 canonical	3	0.18177199990979717	0.12221384133899951	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE281037	SC1	Primary spermatocytes	0	Pcmt1	3	25.269433333333332	0.7020062068418234	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE281037	SC1	Primary spermatocytes	0	Crbn	3	10.153166666666666	0.45997471065749285	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE281037	SC2	Secondary spermatocytes	1	Prdx4t	3	6.075861842105263	1.2546881271522345	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE281037	SC2	Secondary spermatocytes	1	Prdx4 canonical	3	0.5328048245614038	0.2711021736919952	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE281037	SC2	Secondary spermatocytes	1	Pcmt1	3	29.5961	0.49220135446109187	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE281037	SC2	Secondary spermatocytes	1	Crbn	3	12.374866666666666	0.4609495139865586	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE281037	RS	Round spermatids	2	Prdx4t	3	11.651914584093689	1.3202862514086955	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE281037	RS	Round spermatids	2	Prdx4 canonical	3	0.251485415906311	0.14883385765176044	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE281037	RS	Round spermatids	2	Pcmt1	3	28.782133333333334	1.0639953983818615	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE281037	RS	Round spermatids	2	Crbn	3	11.963733333333334	0.5230612753567007	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	LZ	Leptotene/zygotene spermatocytes	0	Prdx4t	3	2.9457075392167456	0.4045468229354878	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	LZ	Leptotene/zygotene spermatocytes	0	Prdx4 canonical	3	60.00719246078326	5.113375106548987	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	LZ	Leptotene/zygotene spermatocytes	0	Pcmt1	3	18.196	1.5112929596871683	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	LZ	Leptotene/zygotene spermatocytes	0	Crbn	3	7.962599999999999	0.3960597219275563	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	PD	Pachytene/diplotene spermatocytes	1	Prdx4t	3	0.5780733333333333	0.16235631610066106	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	PD	Pachytene/diplotene spermatocytes	1	Prdx4 canonical	3	0.030159999999999996	0.030159999999999996	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	PD	Pachytene/diplotene spermatocytes	1	Pcmt1	3	41.8229	1.4004027004163229	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	PD	Pachytene/diplotene spermatocytes	1	Crbn	3	15.990133333333333	0.44998446763317407	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	RS	Round spermatids	2	Prdx4t	3	8.214837293596162	0.6487215121409756	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	RS	Round spermatids	2	Prdx4 canonical	3	0.14432937307050525	0.06637195939908894	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	RS	Round spermatids	2	Pcmt1	3	33.9467	0.34580377865681877	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	RS	Round spermatids	2	Crbn	3	14.684866666666666	3.0949211090286473	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	EES	Early elongating spermatids	3	Prdx4t	3	198.27469970097837	37.951660897676526	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	EES	Early elongating spermatids	3	Prdx4 canonical	3	0.7089002990216228	0.10871675826286074	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	EES	Early elongating spermatids	3	Pcmt1	3	82.87729999999999	13.232371582725952	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	EES	Early elongating spermatids	3	Crbn	3	1.5916333333333332	1.006484999612237	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	LES	Late elongating spermatids	4	Prdx4t	3	248.7851827251379	8.910468687463005	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	LES	Late elongating spermatids	4	Prdx4 canonical	3	0.7211172748621143	0.13203645266101158	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	LES	Late elongating spermatids	4	Pcmt1	3	93.09756666666667	1.3519097915336085	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE214315	LES	Late elongating spermatids	4	Crbn	3	1.0662333333333334	0.20258315439454594	fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SL	Sertoli cells	0	Prdx4t	1	0.0		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SL	Sertoli cells	0	Prdx4 canonical	1	23.7215		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SL	Sertoli cells	0	Pcmt1	1	9.2919		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SL	Sertoli cells	0	Crbn	1	2.4432		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SG	Spermatogonia	1	Prdx4t	1	0.0		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SG	Spermatogonia	1	Prdx4 canonical	1	18.8625		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SG	Spermatogonia	1	Pcmt1	1	13.0259		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SG	Spermatogonia	1	Crbn	1	3.6277		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SC	Spermatocytes	2	Prdx4t	1	5.637282352941176		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SC	Spermatocytes	2	Prdx4 canonical	1	1.4615176470588238		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SC	Spermatocytes	2	Pcmt1	1	38.648		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SC	Spermatocytes	2	Crbn	1	8.313		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SD	Spermatids	3	Prdx4t	1	31.3632207253886		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SD	Spermatids	3	Prdx4 canonical	1	1.8955792746113984		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SD	Spermatids	3	Pcmt1	1	36.0707		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SD	Spermatids	3	Crbn	1	6.0879		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SZ	Spermatozoa	4	Prdx4t	1	0.0613111111111111		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SZ	Spermatozoa	4	Prdx4 canonical	1	0.4904888888888888		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SZ	Spermatozoa	4	Pcmt1	1	5.8909		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
+GSE43717	SZ	Spermatozoa	4	Crbn	1	1.9665		fragments per kilobase of retained exonic sequence per million sequenced SRA spots
