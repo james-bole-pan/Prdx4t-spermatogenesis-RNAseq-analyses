@@ -4,7 +4,6 @@ Source data, analysis scripts and figures for *Prdx4t*, canonical *Prdx4*, *Pcmt
 
 ## Contents
 
-
 - `Source_Data_Supplementary_Figure_4.xlsx`: counts, expression estimates, stage means and SEMs, study selection, strandedness results and column definitions.
 - `figures/RNAseq_stacked_relative.pdf`: Supplementary Figure 4, showing relative expression with the five studies stacked on a common stage axis.
 - `analysis_code/`: plotting scripts, the raw-read processing workflow and the RSeQC strandedness assessment.
